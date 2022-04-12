@@ -33,7 +33,7 @@ The domain services implement our domain logic as well as abstract away our exte
 
 ## Command Pattern
 
-The command pattern is utilized for Command Query Responsibility Segregation [^2]. This approach allows action to be isolated from each other as well as also allowing more of a veritial slice architecture[^3]. Commands can interact with whatever domain logic is sees fit without impacting other commands and not having to also follow rigid patterns of typical top down architecture approaches.  
+The command pattern is utilized for Command Query Responsibility Segregation[^2]. This approach allows action to be isolated from each other as well as also allowing more of a veritial slice architecture[^3]. Commands can interact with whatever domain logic is sees fit without impacting other commands and not having to also follow rigid patterns of typical top down architecture approaches.  
 
 In our example, we can define a command handler.
 
@@ -66,6 +66,9 @@ public static IServiceCollection Decorate<TInterface, TDecorator>(this IServiceC
 ## Footnotes
 
 [^1]: [DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together](https://medium.com/the-software-architecture-chronicles/ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together-f2590c0aa7f6)
+
 [^2]. [CQRS](https://martinfowler.com/bliki/CQRS.html)
+
 [^3]: [Verical Slice Architecture](https://jimmybogard.com/vertical-slice-architecture/)
+
 [^4]. [Decorator](https://en.wikipedia.org/wiki/Decorator_pattern)
