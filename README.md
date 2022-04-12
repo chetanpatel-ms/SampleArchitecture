@@ -68,4 +68,4 @@ public static IServiceCollection Decorate<TInterface, TDecorator>(this IServiceC
 [^1]: [DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together](https://medium.com/the-software-architecture-chronicles/ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together-f2590c0aa7f6)
 [^2]. [CQRS](https://martinfowler.com/bliki/CQRS.html)
 [^3]: [Verical Slice Architecture](https://jimmybogard.com/vertical-slice-architecture/)
-[^4]: [Decorator](https://en.wikipedia.org/wiki/Decorator_pattern)
+[^4]. [Decorator](https://en.wikipedia.org/wiki/Decorator_pattern)
